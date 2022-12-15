@@ -1,0 +1,41 @@
+.program nec_carrier
+
+;33 khz burst w/ 50% duty cycle @125 Mhz clock
+
+.define TRIGGER_IRQ 7
+.define NUM_CYCLES 21   ;21 cycles = roughly 562.5 us
+
+.wrap_target
+    set X, (NUM_CYCLES - 1)
+    wait 1 irq TRIGGER_IRQ
+loop:
+    set pins, 1 [1]
+    set pins, 0
+    jmp X--, loop
+.wrap
+
+% c-sdk {
+    static inline void nec_carrier_program_init(PIO pio, uint sm, uint offset, uint pin){
+        
+        //create state machine config
+        pio_sm_config c = nec_carrier_program_get_default_config(offset);
+
+        //map "pin" to set pins
+        sm_config_set_set_pins(&c, pin, 1);
+
+        //set gpio func
+        pio_gpio_init(pio, pin);
+
+        //set pin direction
+        pio_sm_set_consecutive_pindirs(pio, sm, pin, 1, true);
+
+        //set clock divider (to operate at 38khz using 125Mhz sys clock)
+        sm_config_set_clkdiv(&c, 817.591962744);
+
+        //apply config to state machine
+        pio_sm_init(pio, sm, offset, &c);
+
+        //enable state machine
+        pio_sm_set_enabled(pio, sm, true);
+    }
+%}

@@ -1,0 +1,37 @@
+.program nec_control
+
+.define TRIGGER_IRQ 7
+.define SYNC_BURST_COUNT 16
+
+.wrap_target
+    pull
+
+    set X, (SYNC_BURST_COUNT - 1)
+sync_burst:
+    irq TRIGGER_IRQ
+    jmp X-- sync_burst
+    nop [15]                ;(4.5ms space)
+    irq TRIGGER_IRQ [1]     ;begin first bit
+
+data_bit:
+    out X, 1
+    jmp !X burst
+    nop [3]
+burst:
+    irq TRIGGER_IRQ
+jmp !OSRE data_bit
+
+.wrap
+
+% c-sdk {
+    static inline void nec_control_program_init(PIO pio, uint sm, uint offset){
+        pio_sm_config c = nec_carrier_program_get_default_config(offset);
+
+        sm_config_set_out_shift(&c, true, false, 32);
+        sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_TX);
+
+        sm_config_set_clkdiv(&c, 35156.25);
+        pio_sm_init(pio, sm, offset, &c);
+        pio_sm_set_enabled(pio, sm, true);
+    }
+%}
