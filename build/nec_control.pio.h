@@ -45,10 +45,10 @@ static inline pio_sm_config nec_control_program_get_default_config(uint offset) 
 }
 
     static inline void nec_control_program_init(PIO pio, uint sm, uint offset){
-        pio_sm_config c = nec_carrier_program_get_default_config(offset);
+        pio_sm_config c = nec_control_program_get_default_config(offset);
         sm_config_set_out_shift(&c, true, false, 32);
         sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_TX);
-        sm_config_set_clkdiv(&c, 351562500);
+        sm_config_set_clkdiv(&c, 35156.25);
         pio_sm_init(pio, sm, offset, &c);
         pio_sm_set_enabled(pio, sm, true);
     }

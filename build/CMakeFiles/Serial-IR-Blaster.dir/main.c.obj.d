@@ -18,6 +18,8 @@ CMakeFiles/Serial-IR-Blaster.dir/main.c.obj: \
  /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
  /usr/include/newlib/string.h /usr/include/newlib/sys/_locale.h \
  /usr/include/newlib/strings.h /usr/include/newlib/sys/string.h \
+ /usr/include/newlib/stdlib.h /usr/include/newlib/machine/stdlib.h \
+ /usr/include/newlib/alloca.h \
  /home/matthew/pico/pico-sdk/src/common/pico_stdlib/include/pico/stdlib.h \
  /home/matthew/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /home/matthew/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
@@ -57,9 +59,9 @@ CMakeFiles/Serial-IR-Blaster.dir/main.c.obj: \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
- /home/matthew/pico/projects/Serial-IR-Blaster/build/nec_carrier.pio.h \
  /home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
  /home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
+ /home/matthew/pico/projects/Serial-IR-Blaster/build/nec_carrier.pio.h \
  /home/matthew/pico/projects/Serial-IR-Blaster/build/nec_control.pio.h

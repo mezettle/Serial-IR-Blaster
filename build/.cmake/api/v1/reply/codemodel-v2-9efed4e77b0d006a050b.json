@@ -1047,7 +1047,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-7bc619be5613cdb5a55b.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-d33f3aecbcb7d8fe1c4a.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -1061,7 +1061,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Serial-IR-Blaster::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Serial-IR-Blaster-Debug-d89fdb9caa535356e6d5.json",
+					"jsonFile" : "target-Serial-IR-Blaster-Debug-02c6172f52c6f6cd21e6.json",
 					"name" : "Serial-IR-Blaster",
 					"projectIndex" : 0
 				},
