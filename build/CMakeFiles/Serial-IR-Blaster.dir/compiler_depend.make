@@ -1554,7 +1554,8 @@ CMakeFiles/Serial-IR-Blaster.dir/main.c.obj: ../main.c \
   /home/matthew/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
   /home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
   nec_carrier.pio.h \
-  nec_control.pio.h
+  nec_control.pio.h \
+  nec_repeat.pio.h
 
 
 nec_control.pio.h:
@@ -1846,6 +1847,8 @@ nec_carrier.pio.h:
 /home/matthew/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
 
 /home/matthew/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h:
+
+nec_repeat.pio.h:
 
 /usr/include/newlib/inttypes.h:
 

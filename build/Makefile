@@ -156,6 +156,19 @@ Serial-IR-Blaster_nec_control_pio_h/fast:
 .PHONY : Serial-IR-Blaster_nec_control_pio_h/fast
 
 #=============================================================================
+# Target rules for targets named Serial-IR-Blaster_nec_repeat_pio_h
+
+# Build rule for target.
+Serial-IR-Blaster_nec_repeat_pio_h: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Serial-IR-Blaster_nec_repeat_pio_h
+.PHONY : Serial-IR-Blaster_nec_repeat_pio_h
+
+# fast build rule for target.
+Serial-IR-Blaster_nec_repeat_pio_h/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Serial-IR-Blaster_nec_repeat_pio_h.dir/build.make CMakeFiles/Serial-IR-Blaster_nec_repeat_pio_h.dir/build
+.PHONY : Serial-IR-Blaster_nec_repeat_pio_h/fast
+
+#=============================================================================
 # Target rules for targets named ELF2UF2Build
 
 # Build rule for target.
@@ -1210,6 +1223,7 @@ help:
 	@echo "... PioasmBuild"
 	@echo "... Serial-IR-Blaster_nec_carrier_pio_h"
 	@echo "... Serial-IR-Blaster_nec_control_pio_h"
+	@echo "... Serial-IR-Blaster_nec_repeat_pio_h"
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"

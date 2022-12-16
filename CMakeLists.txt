@@ -21,6 +21,7 @@ add_executable(${PROJECT_NAME}
 
 pico_generate_pio_header(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/nec_carrier.pio)
 pico_generate_pio_header(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/nec_control.pio)
+pico_generate_pio_header(${PROJECT_NAME} ${CMAKE_CURRENT_LIST_DIR}/nec_repeat.pio)
 
 pico_enable_stdio_uart(${PROJECT_NAME} 1)
 pico_enable_stdio_usb(${PROJECT_NAME} 0)

@@ -43,7 +43,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 32,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
@@ -71,32 +71,44 @@
 				"parent" : 5
 			},
 			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 7
+			},
+			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 28,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 3,
 				"line" : 45,
-				"parent" : 7
+				"parent" : 9
 			},
 			{
 				"command" : 4,
 				"file" : 1,
 				"line" : 49,
-				"parent" : 8
+				"parent" : 10
 			},
 			{
 				"file" : 2,
-				"parent" : 9
+				"parent" : 11
 			},
 			{
 				"command" : 2,
 				"file" : 2,
 				"line" : 41,
-				"parent" : 10
+				"parent" : 12
 			},
 			{
 				"file" : 4
@@ -105,19 +117,19 @@
 				"command" : 7,
 				"file" : 4,
 				"line" : 100,
-				"parent" : 12
+				"parent" : 14
 			},
 			{
 				"command" : 2,
 				"file" : 4,
 				"line" : 74,
-				"parent" : 13
+				"parent" : 15
 			},
 			{
 				"command" : 8,
 				"file" : 3,
 				"line" : 28,
-				"parent" : 7
+				"parent" : 9
 			},
 			{
 				"command" : 9,
@@ -294,7 +306,7 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 17,
 					"define" : "PICO_TARGET_NAME=\"Serial-IR-Blaster\""
 				},
 				{
@@ -305,7 +317,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 16,
+					"backtrace" : 18,
 					"path" : "/home/matthew/pico/projects/Serial-IR-Blaster/build"
 				},
 				{
@@ -671,7 +683,7 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 17,
 					"define" : "PICO_TARGET_NAME=\"Serial-IR-Blaster\""
 				},
 				{
@@ -682,7 +694,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 16,
+					"backtrace" : 18,
 					"path" : "/home/matthew/pico/projects/Serial-IR-Blaster/build"
 				},
 				{
@@ -1035,7 +1047,7 @@
 					"define" : "PICO_ON_DEVICE=1"
 				},
 				{
-					"backtrace" : 15,
+					"backtrace" : 17,
 					"define" : "PICO_TARGET_NAME=\"Serial-IR-Blaster\""
 				},
 				{
@@ -1046,7 +1058,7 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 16,
+					"backtrace" : 18,
 					"path" : "/home/matthew/pico/projects/Serial-IR-Blaster/build"
 				},
 				{
@@ -1228,11 +1240,15 @@
 			"id" : "Serial-IR-Blaster_nec_control_pio_h::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 11,
+			"backtrace" : 8,
+			"id" : "Serial-IR-Blaster_nec_repeat_pio_h::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 13,
 			"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 14,
+			"backtrace" : 16,
 			"id" : "bs2_default_padded_checksummed_asm::@bc554eaed616d198a22d"
 		}
 	],

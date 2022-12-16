@@ -22,7 +22,8 @@
 						0,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -580,9 +581,9 @@
 					"source" : "/home/matthew/pico/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
-						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -785,8 +786,8 @@
 					"targetIndexes" : 
 					[
 						1,
-						8,
-						9
+						9,
+						10
 					]
 				},
 				{
@@ -949,7 +950,8 @@
 						0,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -1034,11 +1036,11 @@
 					"targetIndexes" : 
 					[
 						1,
-						5,
 						6,
 						7,
 						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -1047,7 +1049,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "ELF2UF2Build::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ELF2UF2Build-Debug-d33f3aecbcb7d8fe1c4a.json",
+					"jsonFile" : "target-ELF2UF2Build-Debug-02636445d3be442b025a.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -1061,7 +1063,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Serial-IR-Blaster::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Serial-IR-Blaster-Debug-02c6172f52c6f6cd21e6.json",
+					"jsonFile" : "target-Serial-IR-Blaster-Debug-6489147aaeefcbdab22d.json",
 					"name" : "Serial-IR-Blaster",
 					"projectIndex" : 0
 				},
@@ -1077,6 +1079,13 @@
 					"id" : "Serial-IR-Blaster_nec_control_pio_h::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Serial-IR-Blaster_nec_control_pio_h-Debug-3d6dc7cace7364adc994.json",
 					"name" : "Serial-IR-Blaster_nec_control_pio_h",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Serial-IR-Blaster_nec_repeat_pio_h::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Serial-IR-Blaster_nec_repeat_pio_h-Debug-aaa98da9aceb240f2daf.json",
+					"name" : "Serial-IR-Blaster_nec_repeat_pio_h",
 					"projectIndex" : 0
 				},
 				{

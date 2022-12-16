@@ -1,0 +1,33 @@
+.program nec_repeat
+
+.define TRIGGER_IRQ 7
+.define SYNC_BURST_COUNT 16
+.define DELAY_COUNT 16
+
+.wrap_target
+
+    set X, (SYNC_BURST_COUNT - 1)
+sync_burst:
+    irq TRIGGER_IRQ
+    jmp X--, sync_burst
+    nop [7]                ; (2.25ms space)
+    irq TRIGGER_IRQ [1]     ; end repeat code
+
+    ; 40ms delay between repeat codes
+    set X, (DELAY_COUNT - 1)
+delay:
+    nop [7]
+    jmp X--, delay
+
+
+
+.wrap
+
+% c-sdk {
+    static inline void nec_repeat_program_init(PIO pio, uint sm, uint offset){
+        pio_sm_config c = nec_repeat_program_get_default_config(offset);
+
+        sm_config_set_clkdiv(&c, 35156.25);
+        pio_sm_init(pio, sm, offset, &c);
+    }
+%}
