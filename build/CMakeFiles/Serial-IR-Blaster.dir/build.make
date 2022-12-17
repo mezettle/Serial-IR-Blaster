@@ -688,24 +688,346 @@ CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
-CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
-CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
-CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
 CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/Serial-IR-Blaster.dir/flags.make
 CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/Serial-IR-Blaster.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -763,7 +1085,30 @@ Serial__IR__Blaster_OBJECTS = \
 "CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
 "CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
+"CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
 "CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
 
 # External object files for target Serial-IR-Blaster
@@ -814,12 +1159,35 @@ Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-s
 Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/build.make
 Serial-IR-Blaster.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 Serial-IR-Blaster.elf: CMakeFiles/Serial-IR-Blaster.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable Serial-IR-Blaster.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matthew/pico/projects/Serial-IR-Blaster/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable Serial-IR-Blaster.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Serial-IR-Blaster.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /home/matthew/pico/projects/Serial-IR-Blaster/build/Serial-IR-Blaster.elf Serial-IR-Blaster.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /home/matthew/pico/projects/Serial-IR-Blaster/build/Serial-IR-Blaster.elf Serial-IR-Blaster.bin

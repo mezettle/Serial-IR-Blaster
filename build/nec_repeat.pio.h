@@ -22,8 +22,8 @@ static const uint16_t nec_repeat_program_instructions[] = {
     0x0041, //  2: jmp    x--, 1                     
     0xa742, //  3: nop                           [7] 
     0xc107, //  4: irq    nowait 7               [1] 
-    0xe02f, //  5: set    x, 15                      
-    0xa742, //  6: nop                           [7] 
+    0xe036, //  5: set    x, 22                      
+    0xaf42, //  6: nop                           [15]
     0x0046, //  7: jmp    x--, 6                     
             //     .wrap
 };

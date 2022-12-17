@@ -58,7 +58,7 @@ CMakeFiles/Serial-IR-Blaster.dir/main.c.obj: \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
- /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+ /home/matthew/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
  /home/matthew/pico/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h \
  /home/matthew/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \

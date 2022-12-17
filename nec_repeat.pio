@@ -2,7 +2,7 @@
 
 .define TRIGGER_IRQ 7
 .define SYNC_BURST_COUNT 16
-.define DELAY_COUNT 16
+.define DELAY_COUNT 23
 
 .wrap_target
 
@@ -13,10 +13,10 @@ sync_burst:
     nop [7]                ; (2.25ms space)
     irq TRIGGER_IRQ [1]     ; end repeat code
 
-    ; 40ms delay between repeat codes
+    ; 108ms delay between repeat codes
     set X, (DELAY_COUNT - 1)
 delay:
-    nop [7]
+    nop [15]
     jmp X--, delay
 
 
