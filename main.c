@@ -1,3 +1,5 @@
+#define REPEAT_SLEEP 50
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -78,8 +80,14 @@ int main() {
                 nec_repeat(true);
             }
             if(mode_string[0] == 'r'){
-                printf("Ending repeat signal\n");
+                printf("Repeating same command until next return\n");
                 nec_repeat(false);
+                do{
+                    inputc = getchar_timeout_us(0);
+                    sleep_ms(REPEAT_SLEEP);
+                    pio_sm_put(pio, control_sm, nec_frame(address, data));
+                } while(inputc != '\r' && inputc != '\n');
+                printf("Ending repeating command\n");
             }
         }
     }
