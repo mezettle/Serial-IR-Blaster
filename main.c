@@ -1,4 +1,4 @@
-#define REPEAT_SLEEP 50
+#define REPEAT_SLEEP 110
 
 #include <stdio.h>
 #include <string.h>
