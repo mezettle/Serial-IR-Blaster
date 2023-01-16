@@ -1,6 +1,6 @@
 .program nec_carrier
 
-;33 khz burst w/ 50% duty cycle @125 Mhz clock
+;33 khz burst w/ 25% duty cycle @125 Mhz clock
 
 .define TRIGGER_IRQ 7
 .define NUM_CYCLES 21   ;21 cycles = roughly 562.5 us
