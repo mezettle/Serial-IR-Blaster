@@ -9,8 +9,8 @@
     set X, (NUM_CYCLES - 1)
     wait 1 irq TRIGGER_IRQ
 loop:
-    set pins, 1 [1]
-    set pins, 0
+    set pins, 1
+    set pins, 0 [1]
     jmp X--, loop
 .wrap
 
